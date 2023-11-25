@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capstone Project Group 6</title>
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdncloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- custom css file link -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- header section starts -->
+
+  <header>
+
+    <div id="menu-bar" class="fa fa-bars"></div>
+
+    <a href="#" class="logo">Trave<span>LAND</span></a>
+
+    <nav class="navbar">
+      <a href="index.html#home">home</a>
+      <a href="index.html#packages">packages</a>
+      <a href="index.html#services">services</a>
+      <a href="index.html#gallery">gallery</a>
+      <a href="index.html#review">review</a>
+      <a href="index.html#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+      <i class="fa fa-search" id="search-btn"></i>
+      <i class="fa fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+      <input type="search" id="search-bar" placeholder="search here...">
+      <label for="search-bar" class="fa fa-search"></label>
+    </form>
+
+  </header>
+
+  <!-- header section ends -->
+
+  <!-- login form container -->
+
+  <div class="login-form-container">
+
+    <i class="fa fa-times" id="form-close"></i>
+
+    <form action="">
+      <h3>login</h3>
+      <input type="email" class="box" placeholder="enter your email">
+      <input type="password" class="box" placeholder="enter your password">
+      <input type="submit" value="login now" class="btn">
+      <input type="checkbox" id="remember">
+      <label for="remember"> remember me</label>
+      <p>forget password? <a href="#">click here</a></p>
+      <p>don't have an account? <a href="#">click here</a></p>
+    </form>
+
+  </div>
+
+<!-- Section Book -->
+<div class="bodybook">
+
+  <section class="container">
+   
+    <header>Registration Form</header>
+    <form action="#" class="form">
+      
+      <div class="input-box">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter full name" required />
+      </div>
+
+      <div class="input-box">
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter email address" required />
+      </div>
+
+      <div class="input-box">
+        <label>Phone Number</label>
+        <input type="text" placeholder="Enter phone number" required />
+      </div>
+
+      <div class="input-box location">
+        <label>Location</label>
+        <div class="column">
+          <div class="select-box">
+            <select>
+              <option hidden>Harbor</option>
+              <option>Pelabuhan Muara Angke Kaliadem</option>
+              <option>Pelabuhan Marina Ancol</option>
+            </select>
+          </div>
+          <div class="select-box">
+            <select>
+              <option hidden>Destination</option>
+              <option>Pulau Tidung</option>
+              <option>Pulau Bidadari</option>
+              <option>Pulau Pramuka</option>
+              <option>Pulau Onrust</option>
+              <option>Pulau Pelangi</option>
+            </select>
+          </div>
+        </div>
+
+      <div class="input-box">
+        <label>Boat</label>
+        <div class="select-box">
+        <select>
+          <option hidden>Boat</option>
+          <option>Kapal Sonar</option>
+          <option>Kapal Feri</option>
+        </select>
+      </div>
+      </div>  
+
+      <div class="column">
+        <div class="input-box">
+          <label>Take Off</label>
+          <input type="date" placeholder="Enter birth date" required />
+        </div>
+      </div>
+
+      <div class="time-box">
+        <h3>Departure Time</h3>
+        <div class="time-option">
+          <div class="time">
+            <input type="radio" id="check-7am" name= "time" checked />
+            <label for="check-7am">07.00 WIB</label>
+          </div>
+          <div class="time">
+            <input type="radio" id="check-5pm" name="time" />
+            <label for="check-5pm">17.00 WIB</label>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" onClick="myTicket()">Submit</button>
+
+    </form>
+
+</section>
+</div>
+
+<!-- footer section starts -->
+<section class="footer">
+  <h1 class="credit"> created by: <span>Team C Group 6 Section Jakarta</span></h1>
+</section>
+<!-- footer section ends -->
+
+
+
+
+
+  <!-- custom js file link -->
+  <script src="js/script.js"></script>
+</body>

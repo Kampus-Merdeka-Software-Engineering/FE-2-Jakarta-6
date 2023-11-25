@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capstone Project Group 6</title>
+
+  <!--SwiperJs-->
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdncloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- custom css file link -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- header section starts -->
+
+  <header>
+
+    <div id="menu-bar" class="fa fa-bars"></div>
+
+    <a href="#" class="logo">Trave<span>LAND</span></a>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#packages">packages</a>
+      <a href="#services">services</a>
+      <a href="#gallery">gallery</a>
+      <a href="#review">review</a>
+      <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+      <i class="fa fa-search" id="search-btn"></i>
+      <i class="fa fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+      <input type="search" id="search-bar" placeholder="search here...">
+      <label for="search-bar" class="fa fa-search"></label>
+    </form>
+
+  </header>
+
+  <!-- header section ends -->
+
+  <!-- login form container -->
+
+  <div class="login-form-container">
+
+    <i class="fa fa-times" id="form-close"></i>
+
+    <form action="">
+      <h3>login</h3>
+      <input type="email" class="box" placeholder="enter your email">
+      <input type="password" class="box" placeholder="enter your password">
+      <input type="submit" value="login now" class="btn">
+      <input type="checkbox" id="remember">
+      <label for="remember"> remember me</label>
+      <p>forget password? <a href="#">click here</a></p>
+      <p>don't have an account? <a href="#">click here</a></p>
+    </form>
+
+  </div>
+
+  <!-- home section starts -->
+
+  <section class="home" id="home">
+
+    <div class="content">
+      <h3>explore the island</h3>
+      <p>dicover new island with us</p>
+      <a href="#packages" class="btn">discover more</a>
+    </div>
+
+    <div class="video-container">
+      <video src="assets/videoheader.mp4" id="videoslider" loop autoplay muted></video>
+    </div>
+
+  </section>
+
+  <!-- home section ends -->
+
+  <!-- packages section starts -->
+
+  <section class="packages" id="packages">
+
+    <h1 class="heading">
+      <span>p</span>
+      <span>a</span>
+      <span>c</span>
+      <span>k</span>
+      <span>a</span>
+      <span>g</span>
+      <span>e</span>
+      <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <img src="assets/gambar1bali.jpg" alt="">
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i>Pulau Tidung</h3>
+          <p>lorem ipsum dolor sit amet consectetur adipising elit. veritatis, nam!</p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="price"> Rp. 150.000 <span>Rp. 350.000</span></div>
+          <a href="island.html" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="assets/gamba2rajampat.jpg" alt="">
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i>Pulau Bidadari</h3>
+          <p>lorem ipsum dolor sit amet consectetur adipising elit. veritatis, nam!</p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="price"> Rp. 150.000 <span>Rp. 350.000</span></div>
+          <a href="island.html" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="assets/gambar3bunaken.jpg" alt="">
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i>Pulau Pramuka</h3>
+          <p>lorem ipsum dolor sit amet consectetur adipising elit. veritatis, nam!</p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="price"> Rp. 150.000 <span>Rp. 350.000</span></div>
+          <a href="island.html" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="assets/gambar4Trisumba.jpeg" alt="">
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i>Pulau Pari</h3>
+          <p>lorem ipsum dolor sit amet consectetur adipising elit. veritatis, nam!</p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="price"> Rp. 150.000 <span>Rp. 350.000</span></div>
+          <a href="island.html" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="assets/gambar5bromo.jpg" alt="">
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i>Pulau Onrust</h3>
+          <p>lorem ipsum dolor sit amet consectetur adipising elit. veritatis, nam!</p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="price"> Rp. 150.000 <span>Rp. 350.000</span></div>
+          <a href="island.html" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="assets/gambar6rinjani.jpg" alt="">
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i>Pulau Pelangi</h3>
+          <p>lorem ipsum dolor sit amet consectetur adipising elit. veritatis, nam!</p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="price"> Rp. 150.000 <span>Rp. 350.000</span></div>
+          <a href="island.html" class="btn">book now</a>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- packages section ends -->
+
+  <!-- services section starts -->
+
+  <section class="services" id="services">
+
+    <h1 class="heading">
+      <span>s</span>
+      <span>e</span>
+      <span>r</span>
+      <span>v</span>
+      <span>i</span>
+      <span>c</span>
+      <span>e</span>
+      <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <i class="fa fa-hotel"></i>
+        <h3>affordable hotels</h3>
+        <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi aerum quis voluptate
+          exercitationem ut minima itaque iusto ipsum corrupti!</p>
+      </div>
+      <div class="box">
+        <i class="fa fa-cutlery"></i>
+        <h3>food and drinks</h3>
+        <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi aerum quis voluptate
+          exercitationem ut minima itaque iusto ipsum corrupti!</p>
+      </div>
+      <div class="box">
+        <i class="fa fa-bullhorn"></i>
+        <h3>safty guide</h3>
+        <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi aerum quis voluptate
+          exercitationem ut minima itaque iusto ipsum corrupti!</p>
+      </div>
+      <div class="box">
+        <i class="fa fa-globe"></i>
+        <h3>around the world</h3>
+        <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi aerum quis voluptate
+          exercitationem ut minima itaque iusto ipsum corrupti!</p>
+      </div>
+      <div class="box">
+        <i class="fa fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi aerum quis voluptate
+          exercitationem ut minima itaque iusto ipsum corrupti!</p>
+      </div>
+      <div class="box">
+        <i class="fa fa-compass"></i>
+        <h3>Adventures</h3>
+        <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi aerum quis voluptate
+          exercitationem ut minima itaque iusto ipsum corrupti!</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- services section ends -->
+
+  <!-- gallery saction starts -->
+
+  <section class="gallery" id="gallery">
+
+    <h1 class="heading">
+      <span>g</span>
+      <span>a</span>
+      <span>l</span>
+      <span>l</span>
+      <span>e</span>
+      <span>r</span>
+      <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <img src="assets/gambar7danautoba.jpg" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/gambar8tanahtoraja.jpg" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/gambar9borobudur.png" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/gambar9borobudur.png" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/gambar9borobudur.png" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/gambar9borobudur.png" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/gambar9borobudur.png" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/gambar9borobudur.png" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/gambar9borobudur.png" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- gallery section ends -->
+
+  <!-- review section starts -->
+
+  <section class="review" id="review">
+
+    <h1 class="heading">
+      <span>r</span>
+      <span>e</span>
+      <span>v</span>
+      <span>i</span>
+      <span>e</span>
+      <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="assets/review1.jpg" alt="">
+            <h3> jonny</h3>
+            <p>tes tes tes tes tes tes tes testes tes tes testes tes tes testes tes tes tes</p>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="assets/review2.jpg" alt="">
+            <h3> jonny</h3>
+            <p>tes tes tes tes tes tes tes testes tes tes testes tes tes testes tes tes tes</p>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="assets/review3.jpg" alt="">
+            <h3> jonny</h3>
+            <p>tes tes tes tes tes tes tes testes tes tes testes tes tes testes tes tes tes</p>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="assets/review4.jpg" alt="">
+            <h3> jonny</h3>
+            <p>tes tes tes tes tes tes tes testes tes tes testes tes tes testes tes tes tes</p>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- review section ends -->
+
+  <!-- contact section starts -->
+<Section class="contact" id="contact">
+
+  <h1 class="heading">
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>a</span>
+      <span>c</span>
+      <span>t</span>
+  </h1>
+
+  <div class="row">
+
+      <div class="image">
+          <img src="assets/Contact.jpg" alt="">
+      </div>
+      
+      <form action="">
+          <div class="inputBox">
+              <input type="text" placeholder="name">
+              <input type="email" placeholder="email">
+          </div>
+          <div class="inputBox">
+              <input type="number" placeholder="phone number">
+              <input type="text" placeholder="subject">
+          </div>
+          <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit" class="btn" value="send message">
+      </form>
+
+  </div>
+
+</Section>
+<!-- contact section ends -->
+
+<!-- footer section starts -->
+<section class="footer">
+  <h1 class="credit"> created by: <span>Team C Group 6 Section Jakarta</span></h1>
+</section>
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- SwiperJs -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- custom js file link -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
