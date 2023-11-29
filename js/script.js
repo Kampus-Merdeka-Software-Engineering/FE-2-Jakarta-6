@@ -51,7 +51,7 @@ var swiper = new Swiper(".review-slider", {
       slidesPerView: 2,
     },
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     }
   }
 });
