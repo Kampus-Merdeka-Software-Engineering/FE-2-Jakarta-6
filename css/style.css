@@ -542,10 +542,10 @@ header .search-bar-container label:hover {
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-.container header {
-  font-size: 1.5rem;
-  color: #333;
-  font-weight: 500;
+.container h1 {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 800;
   text-align: center;
 }
 .container .form {

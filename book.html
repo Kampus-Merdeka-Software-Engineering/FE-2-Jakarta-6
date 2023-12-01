@@ -35,53 +35,29 @@
     </nav>
 
     <div class="icons">
-      <i class="fa fa-search" id="search-btn"></i>
-      <i class="fa fa-user" id="login-btn"></i>
+      <a href="index.html"><i class="fa fa-home"></i></a>
     </div>
-
-    <form action="" class="search-bar-container">
-      <input type="search" id="search-bar" placeholder="search here...">
-      <label for="search-bar" class="fa fa-search"></label>
-    </form>
 
   </header>
 
   <!-- header section ends -->
-
-  <!-- login form container -->
-
-  <div class="login-form-container">
-
-    <i class="fa fa-times" id="form-close"></i>
-
-    <form action="">
-      <h3>login</h3>
-      <input type="email" class="box" placeholder="enter your email">
-      <input type="password" class="box" placeholder="enter your password">
-      <input type="submit" value="login now" class="btn">
-      <input type="checkbox" id="remember">
-      <label for="remember"> remember me</label>
-      <p>forget password? <a href="#">click here</a></p>
-      <p>don't have an account? <a href="#">click here</a></p>
-    </form>
-
-  </div>
 
 <!-- Section Book -->
 <div class="bodybook">
 
   <section class="container">
    
-    <header>Registration Form</header>
+    <h1>Order Form</h1>
+
     <form action="#" class="form">
-      
+
       <div class="input-box">
-        <label>Full Name</label>
+        <label for="full-name">Full Name</label>
         <input type="text" placeholder="Enter full name" required />
       </div>
 
       <div class="input-box">
-        <label>Email Address</label>
+        <label for="email">Email Address</label>
         <input type="email" placeholder="Enter email address" required />
       </div>
 
@@ -94,14 +70,14 @@
         <label>Location</label>
         <div class="column">
           <div class="select-box">
-            <select>
+            <select required>
               <option hidden>Harbor</option>
               <option>Pelabuhan Muara Angke Kaliadem</option>
               <option>Pelabuhan Marina Ancol</option>
             </select>
           </div>
           <div class="select-box">
-            <select>
+            <select required>
               <option hidden>Destination</option>
               <option>Pulau Tidung</option>
               <option>Pulau Bidadari</option>
@@ -115,7 +91,7 @@
       <div class="input-box">
         <label>Boat</label>
         <div class="select-box">
-        <select>
+        <select required>
           <option hidden>Boat</option>
           <option>Kapal Sonar</option>
           <option>Kapal Feri</option>
@@ -144,7 +120,7 @@
         </div>
       </div>
 
-      <button type="submit" onClick="myTicket()">Submit</button>
+      <button type="submit" onclick="myTicket()">Submit</button>
 
     </form>
 
@@ -160,7 +136,5 @@
 
 
 
-
-  <!-- custom js file link -->
-  <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
