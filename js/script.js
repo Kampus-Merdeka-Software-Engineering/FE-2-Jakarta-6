@@ -19,18 +19,24 @@ menu.addEventListener("click", () => {
   navbar.classList.toggle("active");
 });
 
-searchBtn.addEventListener("click", () => {
-  searchBtn.classList.toggle("fa-times");
-  searchBar.classList.toggle("active");
-});
+if (searchBtn != null) {
+  searchBtn.addEventListener("click", () => {
+    searchBtn.classList.toggle("fa-times");
+    searchBar.classList.toggle("active");
+  });
+}
 
-formBtn.addEventListener("click", () => {
-  loginForm.classList.add("active");
-});
+if (formBtn != null) {
+  formBtn.addEventListener("click", () => {
+    loginForm.classList.add("active");
+  });
+}
 
-formClose.addEventListener("click", () => {
-  loginForm.classList.remove("active");
-});
+if (formClose != null) {
+  formClose.addEventListener("click", () => {
+    loginForm.classList.remove("active");
+  });
+}
 
 function myTicket(){
   alert("Terimakasih Pemesanan Anda Sedang Diproses!")
@@ -55,3 +61,4 @@ var swiper = new Swiper(".review-slider", {
     }
   }
 });
+
