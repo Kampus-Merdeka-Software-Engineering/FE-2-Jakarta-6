@@ -39,7 +39,12 @@
 
 const getPackages = async() => {
     try {
-        const response = await fetch('http://localhost:3000/packages');
+        let apiHost = 'http://localhost:3000';
+        const hostname = window.location.hostname
+        if (hostname != 'localhost' || hostname != '') {
+          apiHost = 'https://good-gray-millipede-yoke.cyclic.app'
+        }
+        const response = await fetch(`${apiHost}/packages`);
         const data = await response.json();
         // console.log(data.);
 

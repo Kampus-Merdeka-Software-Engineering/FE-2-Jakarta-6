@@ -1,4 +1,8 @@
-const baseUrl = "http://localhost:3000";
+let baseUrl = "http://localhost:3000";
+const hostname = window.location.hostname
+if (hostname != 'localhost' || hostname != '') {
+  baseUrl = 'https://good-gray-millipede-yoke.cyclic.app'
+}
 
 const loadPackagesList = () => {
     const urlParams = new URLSearchParams(window.location.search);
