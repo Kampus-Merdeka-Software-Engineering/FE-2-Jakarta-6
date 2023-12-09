@@ -39,7 +39,12 @@
 
 const getPackages = async() => {
     try {
-        const response = await fetch('http://localhost:3000/packages');
+        let apiHost = 'http://localhost:3000';
+        const hostname = window.location.hostname
+        if (hostname != 'localhost' || hostname != '') {
+          apiHost = 'https://good-gray-millipede-yoke.cyclic.app'
+        }
+        const response = await fetch(`${apiHost}/packages`);
         const data = await response.json();
         // console.log(data.);
 
@@ -54,7 +59,7 @@ const getPackages = async() => {
             <img src="${element.island_images1}" alt="">
             <div class="content">
             <h3><i class="fas fa-map-marker-alt"></i>${element.island_name}</h3>
-            <p>Pulau Tidung menyimpan banyak keindahan alam dan keindahan laut yang wajib dilihat</p>
+            <p>Pay Less, Travel More</p>
             <div class="stars">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
