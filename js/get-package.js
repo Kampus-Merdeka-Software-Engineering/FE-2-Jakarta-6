@@ -7,8 +7,6 @@ const getPackages = async() => {
         }
         const response = await fetch(`${apiHost}/packages`);
         const data = await response.json();
-        // console.log(data.);
-
 
         const parent = document.querySelector('.box-container');
         data.data.forEach(element => {

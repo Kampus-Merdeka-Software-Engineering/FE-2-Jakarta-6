@@ -13,8 +13,6 @@ const loadPackagesList = () => {
     const {data} = res;
     console.log({data});
   
-
-    // data.forEach(() => {
     const {island_name, island_images1, island_images2, island_images3, island_images4, island_images5, island_activity, island_price} = data;
       document.getElementById("packages-details").innerHTML += `
         <div class="house-details">
@@ -70,8 +68,6 @@ const loadPackagesList = () => {
 
         </div>`;
   });
-    // console.log({res});
-//   );
 };
 
 

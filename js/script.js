@@ -39,7 +39,7 @@ if (formClose != null) {
 }
 
 function myTicket(){
-  alert("Terimakasih Pemesanan Anda Sedang Diproses!")
+  alert("Terimakasih Pesanan Anda Sedang Diproses!")
 }
 
 var swiper = new Swiper(".review-slider", {
